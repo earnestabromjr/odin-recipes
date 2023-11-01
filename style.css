@@ -1,0 +1,20 @@
+.fontStyle {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fontSize {
+    font-size: 13px;
+}
+
+#bodyStyle {
+    background-color: rgb(192, 196, 195);
+}
+
+.divStyle {
+    background-color: rgb(208, 199, 188);
+}
+
+#header1 {
+    text-align: center;
+}
