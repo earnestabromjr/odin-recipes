@@ -5,42 +5,50 @@ html {
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.fontStyle {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.fontSize {
-    font-size: 13px;
-}
-
-#bodyStyle {
-    background-color: rgb(192, 196, 195);
-}
-
-.divStyle {
-    background-color: rgb(208, 199, 188);
-}
-
-#header1 {
-    text-align: center;
+.fontStyle, h3, h1, li {
+  color: #ebeae7;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
 }
 
-li, a {
-    padding: 5px;
-    color: chocolate;
+h3, p {
+  margin-bottom: 10px;
 }
 
+h3, p {
+  display: block;
+}
+
+a {
+  padding: 5px;
+  color: #ebeae7;
+}
+
+body {
+  margin-left: 5%;
+  background-color: #ff5733;
+}
+
+.container {
+  display: block;
+  align-items: left;
+  justify-content: left;
+}
 .center {
-    margin-left: 280px;
+  margin-left: 280px;
+  margin-right: 280px;
 }
 
+.color {
+  background-color: #ffa07a;
+}
